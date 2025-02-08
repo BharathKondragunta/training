@@ -1,0 +1,16 @@
+main#nav>nav#sub-nav>span+ol>li*6
+     where it is type saver, it follows the zed coding
+     
+
+useref hook in react
+-------------
+-> ref stands for reference
+-> useref uses real-dom directly
+-> useref hook is haveing a property called current 
+-> useref is having a keyword called ref
+-> useref is used for the un-controlled form
+
+syntax:-
+import {useref} from react
+
+let identifier 

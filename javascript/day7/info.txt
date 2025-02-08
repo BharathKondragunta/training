@@ -1,0 +1,75 @@
+IIFE(intermediate invocking function expression) function:
+    - it will be called immediately once the function object is created. 
+    - it is called using the open and closed brackets ().
+    - it should be terminated by using semi coloun(;).where the multiple IIFE functions are used 
+
+syntax: (expression(function))()
+eg:
+    (function()
+    {
+
+    })()    
+
+IIFE function with the arrow function:
+
+(() => {
+
+{)()
+
+the named function converted into the IIFE function:
+
+(function demo()
+{
+
+})()
+
+array in javascript:
+ - array is used to store data of an different types
+ - in java script array is hetrogenious, because it stores the data.
+
+
+//by using the new object
+
+let arr = new Array(10, 20, "hello", true, in)
+console.log(arr);
+
+
+//by using general method 
+let arr1 =[10, 20, "hello", true, in]
+console.log(arr1);
+
+
+
+objects in javascript:
+- it is used to store the data in the form of key and value pairs.
+
+eg:
+let obj = {
+    name: "Rahul",
+    id : 1,
+    designation: "Developer",
+    arr : [10, 20, 30],
+    boolean : true,
+    bigint : 1n,
+    demo : function()
+    {
+        console.log("Hello");
+        
+    }
+}
+console.log(obj);
+obj.demo();
+
+
+
+//by using constructor-function
+a constructor function is used to create an object.
+
+eg:
+function obj1 (name, id)
+{
+    this.name = name;
+    this.id = id;
+}
+let p1 = new obj1("kumar" , 1)
+console.log(p1);

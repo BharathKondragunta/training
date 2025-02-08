@@ -1,0 +1,85 @@
+Library:
+    -> it is a colllection of functions 
+
+reactjs:
+    -> it is a library.
+    -> used to develop single-page application.
+    -> it is component based application.
+    -> component are re-useable.
+    -> it is declarative.
+
+    -> it is introduced by facebook, in 2013, by a person named jorden walke.
+    -> it uses the virtual dom. 
+    -> it uses an mvc architecture (model view controller).
+    npm: node package manager
+        -> used to install, update, delete package in a js
+        -> package will be installed globally
+
+        npm install -g create-react-application
+        create-raect-app app-named
+
+        npm create vite@latest ---> install new version-of-react
+        
+    npx: node package 
+    -> it is used to execute without the installation
+    -> no need to install globally
+    npx create
+
+node-modules:-
+    all library and third party libaray will be installed.
+    babbel
+src folder:-
+    it is a root folder used to create components
+
+index.html:-
+    it is a root file.
+
+package.json:-
+    it consists of all dependency and third party libaray
+
+eslint (ecma script lint)
+----------------------------
+    it used to testing/bedug purpose.+
+
+// how to create a class
+import react from 'react'
+class demo extends React.component{
+    render(){
+        return <h1> i am class component</h1>
+    }
+}
+
+export default demo;
+
+
+//another way of creating a class
+import react, {component} from 'react'
+class demo extends React.component{
+    render(){
+        return <h1> i am class component</h1>
+    }
+}
+
+export default demo;
+
+
+2) function-based component:-
+
+-> it is a js pure function
+-> it doesn't have react-life-cycle.
+-> it is a stateless component.
+
+import React from 'react'
+function demo1(){
+    return <h1>i am function based component</h1>
+}
+export default demo1
+
+import React from 'react'
+let demo3() => {
+    return <h2>Hello</h2>
+}
+export default demo3
+
+rcc 
+rafce

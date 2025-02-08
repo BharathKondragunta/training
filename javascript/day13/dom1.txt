@@ -1,0 +1,17 @@
+Manipulatiuon / Modification of dom
+--> updating or modification of dom
+
+--> methods:
+->createElement method:
+
+how to use this method:
+->step1: create an element using createelement() method.
+
+->step2: append an element to the parent element by using append or appendChild method.
+
+eg:-
+let a = document.createElement("h1")
+console.log(a) // <h1></h1>
+a.textContent = "hello"  // <h1>hello</h1>
+
+document.body.appendChild(h1)

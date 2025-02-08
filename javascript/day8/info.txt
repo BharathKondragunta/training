@@ -1,0 +1,30 @@
+asynchronous:
+--> making a way for other function to execute.
+
+// two in built methods 
+--> settimeout(cbf, delay-time)   callback funcution(cbf)
+--> setinterval(cbf, delay-time)
+
+--> asynchronous function will  not work in all the situations. 
+
+
+Promise:
+--> it is an object
+--> used to look afetr the asynchronous function
+
+--> 3 phases
+-> pending phase
+-> resolve/fulfilled phase     .then(cbf)
+-> reject phase      .catch(cbf)
+
+
+--> Syntax:
+
+new Promise((resolve, reject) => {
+-- asynchronous function -- 
+})
+.then(cbf)
+.catch(cbhf)
+
+
+where then, and catch is a higher order method 

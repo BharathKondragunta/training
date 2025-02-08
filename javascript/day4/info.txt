@@ -1,0 +1,25 @@
+DAY-4
+
+
+Function Expression:
+assigning function as a value to a variable. it is used to perform specific tasks.
+
+let demo= function()
+	{
+	   console.log("hello");
+	}
+	  console.log(demo);
+	  demo()
+
+
+--> hoisting is not possible in a function expression. if we use the hoisting, it will lead to reference error.
+
+Function programming:
+- it is used to perform generic tasks(multi tasks).
+- a function programming can be created using function declaration statement and function expreesion and arrow function.
+
+higher-order function:
+- a function which accept another function as a argument is called higher function.
+
+CallBack function:
+- a function which is pass as an argument to a higher order function is called callback function.

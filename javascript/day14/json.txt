@@ -1,0 +1,30 @@
+JSON:
+-> it is a plain text file where data will be stored in the form of key and value pair. 
+-> and all the key will be enclosed with the double quotes.
+
+-> how to create JSON.
+--------------------------------
+STEP1: create a json file
+
+STEP2: store the data in the form of key value pair and key should enclosed with double quotes. 
+-> other than undefined and function we can use any data-type to cretae a JSON.
+
+SOAP:
+->HTTP, ajax(xhr)
+
+REST:
+-> HTTP, JSON
+
+--> methods of JSON
+------------------
+1) stringify()
+    --> it will convert object into json data-type
+
+2) parse():
+    --> it will convert json to object formate
+
+
+there are three ways in the fetch :
+1.fetch methods
+2.ajax
+3.axios

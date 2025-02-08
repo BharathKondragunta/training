@@ -1,0 +1,46 @@
+function main(a)
+{
+    console.log(a());
+}
+main(function()(
+    return "i am callbackf1"
+})
+
+main(function()(
+    return "i am callbackf2"
+})
+
+
+where in callback function we need to create a function with anormous function.
+here main is the higher order function.
+
+funcrtion operator(task)
+{
+    console.log(task(10, 20));
+}
+operator(function(a,b){
+return a+b;
+})
+operator(function(a,b){
+return a-b;
+})
+
+
+Arrow function:
+- it was introduced in ecmaScript6.version, and this version is introduved in the year 2015.
+- it is used to reduce the number of lines in a code.
+- there are two types of return keywords
+    1. implicit return arrow function
+        --> no need of using return keywords.
+    eg:
+    let a = () => console.log("hello");
+    console.log(a);
+    a()
+
+    2. explict return arrow function
+        --> return keyword is mandatory.
+    eg:
+    let b = () => {return "hello"}
+    console.log(b);
+    console.log(b());
+

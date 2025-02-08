@@ -1,0 +1,12 @@
+State in react: 
+    -> state is used to store the data in the same component and update 
+    the data in the same component.
+    -> state is mutable , where we can read and write
+
+Syntax:
+
+import {useState} from 'react'
+let [state, setState] = useState{inital-value}
+
+state -> it will store initial value 
+setState -> it is a function used to update a state
